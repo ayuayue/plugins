@@ -32,6 +32,8 @@
       "summary": { "en": "MiniMax Code account credits (daily check-in) and M Plan, with MiniMax Code's own device sign-in.", "zh": "用 MiniMax Code 账号的积分（每日签到）与 M Plan，使用 MiniMax Code 自己的设备登录。" } },
     { "package": "@magpie-community/opencode-workbuddy-auth", "name": "WorkBuddy", "icon": "workbuddy-color", "providers": ["workbuddy", "workbuddy-ai"], "community": true, "replaces": "workbuddy",
       "summary": { "en": "WorkBuddy's China build (CodeBuddy plan) and its international build.", "zh": "WorkBuddy 国内版（CodeBuddy 套餐）与国际版。" } },
+    { "package": "magpie-codebuddy-import", "name": "CodeBuddy", "icon": "https://github.com/ayuayue.png", "providers": ["codebuddy", "codebuddy-ai"], "community": true,
+      "summary": { "en": "CodeBuddy and CodeBuddy AI (WorkBuddy's two builds) as codebuddy / codebuddy-ai: a workbuddy-switch accounts JSON imported in one paste (and exported back), the real credits used today, the daily check-in, and the cat-travel loop on the China build.", "zh": "把 CodeBuddy / CodeBuddy AI（WorkBuddy 两个版本）登记成 codebuddy / codebuddy-ai：整份 workbuddy-switch 账号 JSON 粘一次全导入（也能导出回去），补今日已用积分的真数、每日签到，国内版还能自动派猫猫旅行。" } },
     { "package": "@magpie-community/opencode-cline-auth", "name": "Cline", "icon": "cline", "providers": ["cline"], "community": true,
       "summary": { "en": "Cline's models on your own Cline account — usage billing, ClinePass and Cline's free models — with Cline's device sign-in or an API key.", "zh": "用自己的 Cline 账号使用 Cline 的模型——用量计费、ClinePass 与免费模型——支持 Cline 设备登录或 API key。" } },
     { "package": "@magpie-community/opencode-trae-auth", "name": "Trae", "icon": "trae", "providers": ["trae-cn", "trae-global"], "community": true,
